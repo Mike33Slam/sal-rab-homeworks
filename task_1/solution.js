@@ -15,9 +15,7 @@ function addInCartMessage(title, price) {
     // выведите переменную message в консоль
     let message;
     message = productName;
-    console.log(productName);
     let = productPrice;
-    console.log(message);
     message = message + ' ';
     message = message + 'за';
     message = message + ' ';
@@ -59,11 +57,8 @@ function addInCartSumChange(sum, delta) {
     // замените склеивание, используемое в newSum Text на шаблонную строку
     let newSum;
     newSum = oldSum + difference;
-    console.log(newSum);
     let newSumText = newSum + '₽';
     newSumText = `${newSum} ₽`;
-    console.log(newSumText);
-
 
     // Конец решения задания №1.3.
 
